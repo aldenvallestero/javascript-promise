@@ -6,8 +6,7 @@ async function promise() {
   await Promise.all([
 
     new Promise((resolve, reject) => {
-      setTimeout(resolve, 10000, 'expensiveCalculation1');
-      console.log(456)
+      setTimeout(resolve, 2000, 'expensiveCalculation1');
     }),
 
     new Promise((resolve, reject) => {

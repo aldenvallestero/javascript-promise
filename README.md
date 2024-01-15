@@ -9,7 +9,7 @@ From `index.js` file, I used `.all()` to wrap 3 memory-expensive promised functi
 
 In order to simulate promise concurrency, I put timeout functions to differentiate all 3 functions.
 
-The expensiveCalculation1 will execute for 10 seconds.
+The expensiveCalculation1 will execute for 2 seconds.
 
 The expensiveCalculation2 will execute for 2 seconds and will get rejected.
 
